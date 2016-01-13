@@ -1,0 +1,52 @@
+h1 {
+  font-size: 62px;
+}
+
+.bg-dark-alfa-70:before, .bg-dark-alfa-70 .YTPOverlay:before
+{
+  background-color: rgba(20,20,20, .93);
+}
+.quote p {
+  color: #142F16;
+  font-size: 17px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  padding: 8px;
+  margin-top: 30px;
+  line-height: 21px;
+
+}
+
+.widget {
+  margin-bottom: 20px;
+}
+
+.main-nav.dark .inner-nav ul > li > a {
+  color: #FFF;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.small-title {
+  font-size: 30px;
+}
+
+.widget-title {
+  letter-spacing: 0px;
+}
+
+.widget {
+  margin-bottom: 25px;
+}
+
+.section-bot-image {
+  margin: 56px 0 -51px;
+}
+
+.btn-mod.btn-border-white {
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  background: transparent;
+}

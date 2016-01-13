@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<%= erb :'/layouts/contenidos/head' %>
+
+
+<body class="appear-animate">
+
+<!-- Page Loader -->
+<div class="page-loader">
+  <b class="spinner">Loading...</b>
+</div>
+<!-- End Page Loader -->
+
+<!-- Page Wrap -->
+<div class="page" id="top">
+
+  <!-- Home Section -->
+  <%= erb :'/layouts/contenidos/home-section' %>
+  <!-- End Home Section -->
+  <!-- Navigation panel -->
+  <%= erb :'/layouts/generales/menu' %>
+  <!-- Content Section -->
+  <section class="page-section">
+    <div class="container">
+
+      <div class="row">
+
+        <!-- Content -->
+
+        <%= yield %>
+
+        <!-- End Content -->
+
+      </div>
+
+    </div>
+  </section>
+  <!-- End Content Section -->
+
+
+  <!-- Footer -->
+  <%= erb :'/layouts/generales/footer' %>
+  <!-- End Foter -->
+
+
+</div>
+<!-- End Page Wrap -->
+
+
+<%= erb :'/layouts/contenidos/javascript' %>
+
+
+</body>
+</html>

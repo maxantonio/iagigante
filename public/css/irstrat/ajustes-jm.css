@@ -1,0 +1,279 @@
+
+.numero-contador{
+    font-family: Montserrat, arial, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.3;
+    text-align: center;
+}
+
+.benefit-item:hover:after {
+    background-color: #303335;
+    opacity: 0.5;
+    transform: none;
+}
+
+#estructura .alt-service-item {
+    padding-left: 5px;
+}
+
+.alt-service-item tr {
+    height: 30px;
+}
+
+#cuerpo-ejectutivo-tabla tr {
+    height: 45px;
+}
+
+#botton-descargar-portada{
+    left: 13%;
+    bottom: 105px;
+    border: 2px solid #D3D3D3;
+}
+
+#botton-descargar-portada:hover{
+    background: none repeat scroll 0 0 black;
+    color: inherit !important;
+    letter-spacing: 2px;
+}
+
+.scroll-down {
+    color: rgba(255, 255, 255, 0.8) !important;}
+
+
+#informacion-financiera thead tr{
+    color: #EAEAEA;
+}
+
+#informacion-financiera .table{
+margin-bottom: 0;
+}
+
+
+/*menu*/
+.clearlist.scroll-nav.local-scroll a {
+    line-height: inherit !important;
+    position: relative;
+    top: 13px;
+}
+.main-nav.dark .inner-nav ul > li > ul > li > a {
+    height: auto !important;
+    padding: 12px;
+    position: static;
+}
+
+@media screen and (min-width: 1147px) {
+#en-detalle-ul{
+    left: -95px;
+}
+}
+
+
+#sustentabildiad-arrow-movil{
+    display: none;
+}
+
+/*comienzo de version movil*/
+@media screen and (max-width: 1157px) {
+
+    #sustentabilidad-menu{
+        top: 0;
+    }
+
+    #sustentabildiad-arrow-desktop{display: none;}
+
+#sustentabildiad-arrow-movil {
+    display: inline;}
+
+
+    .mobile-on .desktop-nav ul li {
+        overflow: visible;
+    }
+
+}
+
+
+
+/*Imagenes orden*/
+@media screen and (min-width: 992px) {
+.right-first{
+    float:right;
+}
+}
+
+
+#acciones-y-resultados .row{
+    margin-top: 10px;
+}
+
+
+
+/*Portada*/
+
+/*cuadrante + 6 bloques*/
+
+
+
+.ssh-table {
+    height: 450px !important;
+}
+
+
+.split-section-content .service-grid .clearfix{
+    height: 450px !important;
+}
+
+
+.si-cell{
+    padding: 10px;
+}
+
+.ssh-cell {
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+
+.service-item{
+    height: 225px !important;
+}
+
+
+/*Variado*/
+
+#informacion-sectorial .widget img {
+    height: 170px;
+}
+
+#informacion-sectorial .widget > div {
+text-align: left !important;
+}
+
+#informacion-sectorial .widget-title {
+    margin-bottom: 10px;
+}
+
+#informacion-sectorial .widget {
+    margin-bottom: 5px;
+}
+
+#informacion-sectorial .sidebar .leyenda-tabla{
+    margin-top: 0;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+
+#informacion-operativa .widget-title {
+    margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 992px) {
+#services:before{
+    background: none repeat scroll 0 0 rgba(34, 34, 34, 1);
+}
+}
+
+
+@media screen and (max-width: 1024px) {
+
+#home {
+    background-position: inherit !important;
+}
+
+}
+
+/*estructura responsive*/
+
+@media screen and (max-width: 768px) {
+
+#estructura .alt-service-item{
+text-align: center;
+}
+
+
+#estructura .alt-service-item > * {
+    display: inline;
+    position: static !important;
+
+}
+
+#estructura .alt-service-item > table {
+    display: table;
+    margin: auto;
+    text-align: justify;
+}
+}
+
+
+
+#informacion-sectorial .widget > div{
+    text-align: center !important;
+}
+
+#informacion-sectorial .widget-title {
+    text-align: center;
+
+}
+
+@media screen and (max-width: 992px) {
+    #informacion-sectorial .sidebar{
+width: 100%;
+    }
+}
+
+
+
+#informacion-operativa .sidebar{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 992px) {
+    #informacion-operativa .sidebar{
+        width: 100%;
+    }
+}
+
+
+#informacion-financiera .sidebar{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 992px) {
+    #informacion-financiera .sidebar{
+        width: 100%;
+    }
+}
+
+
+#informacion-financiera-selecta .sidebar{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 992px) {
+    #informacion-financiera-selecta .sidebar{
+        width: 100%;
+    }
+}
+
+#modelo-sustentabilidad{
+    margin-left: 18px;
+
+}
+
+
+@media screen and (max-width: 992px) {
+    #clientes img , #empleados img ,  #inversionistas img  {
+        margin-top: 10px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #comunidad img {
+        margin-bottom: 15px !important;
+    }
+}
