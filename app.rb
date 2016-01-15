@@ -19,6 +19,12 @@ end
                                                      # Independientes-SinSidebar
 
 
+get '/es/perfil' do
+  @titulo = "Perfil"
+  @menuName = ""
+  @menuNumber = 1
+  erb :"/vistas/es/Independientes-SinSidebar/perfil", :layout => :"/plantillas/contenido"
+end
 get '/es/estructura' do
   @titulo = ""
   @menuName = ""
