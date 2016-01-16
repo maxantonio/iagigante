@@ -40,6 +40,55 @@ get '/es/office_depot' do
   erb :"/vistas/es/Independientes-SinSidebar/office_depot", :layout => :"/plantillas/contenido"
 end
 
+get '/es/home_store' do
+  @titulo = "The Home store"
+  @menuName = ""
+  @menuNumber = 1
+  erb :"/vistas/es/Independientes-SinSidebar/home_store", :layout => :"/plantillas/contenido"
+end
+
+get '/es/toks' do
+  @titulo = "Toks"
+  @menuName = ""
+  @menuNumber = 1
+  erb :"/vistas/es/Independientes-SinSidebar/toks", :layout => :"/plantillas/contenido"
+end
+
+get '/es/panda_express' do
+  @titulo = "Toks"
+  @menuName = ""
+  @menuNumber = 1
+  erb :"/vistas/es/Independientes-SinSidebar/panda_express", :layout => :"/plantillas/contenido"
+end
+
+get '/es/cup_stop' do
+  @titulo = "Cup stop"
+  @menuName = ""
+  @menuNumber = 1
+  erb :"/vistas/es/Independientes-SinSidebar/cup_stop", :layout => :"/plantillas/contenido"
+end
+
+get '/es/gigante_inmobiliario' do
+  @titulo = "Gigante Inmobiliario"
+  @menuName = ""
+  @menuNumber = 1
+  erb :"/vistas/es/Independientes-SinSidebar/gigante_inmobiliario", :layout => :"/plantillas/contenido"
+end
+
+get '/es/petco' do
+  @titulo = "PETCO"
+  @menuName = ""
+  @menuNumber = 1
+  erb :"/vistas/es/Independientes-SinSidebar/petco", :layout => :"/plantillas/contenido"
+end
+
+get '/es/fundacion_gigante' do
+  @titulo = "Fundacion Gigante"
+  @menuName = ""
+  @menuNumber = 1
+  erb :"/vistas/es/Independientes-SinSidebar/fundacion_gigante", :layout => :"/plantillas/contenido"
+end
+
 get '/es/estrategia' do
   @titulo = ""
   @menuName = ""
