@@ -25,12 +25,21 @@ get '/es/perfil' do
   @menuNumber = 1
   erb :"/vistas/es/Independientes-SinSidebar/perfil", :layout => :"/plantillas/contenido"
 end
+
 get '/es/estructura' do
   @titulo = ""
   @menuName = ""
   @menuNumber = 1
   erb :"/vistas/es/Independientes-SinSidebar/estructura", :layout => :"/plantillas/contenido"
 end
+
+get '/es/office_depot' do
+  @titulo = "Office Depot"
+  @menuName = ""
+  @menuNumber = 1
+  erb :"/vistas/es/Independientes-SinSidebar/office_depot", :layout => :"/plantillas/contenido"
+end
+
 get '/es/estrategia' do
   @titulo = ""
   @menuName = ""
