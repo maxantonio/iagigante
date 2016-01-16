@@ -65,3 +65,9 @@
 .lp-more{
     background-color: #ed1b24;
 }
+.lp-author{
+    color: #555 ;
+}
+.blog-link, .blog-link:hover{
+    background: none;
+}
